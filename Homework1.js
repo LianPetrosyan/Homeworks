@@ -1,4 +1,4 @@
-// //1. Declare 2 variables a and b, such that a > b, and define values for them. Output their
+// // 1. Declare 2 variables a and b, such that a > b, and define values for them. Output their
 // // a. sum
 // // b. difference (between a and b)
 // // c. product
@@ -27,7 +27,7 @@
 
 // // 4. Check whether a given number is negative. Print “yes”, if it is negative, print “no” otherwise.
 // let number = +prompt("Enter a number")
-// if (number<0) {
+// if (number < 0) {
 //     alert("yes")
 // } else {alert("no")}
 
@@ -101,8 +101,8 @@
 // let number1 = +prompt("Enter number 1")
 // let number2 = +prompt("Enter number 2")
 // let number3 = +prompt("Enter number 3")
-// if (number1 > number2 && number1>number3){
+// if (number1 > number2 && number1 > number3){
 //     console.log(number1)
-// } else if (number2 > number1 && number2>number3){
+// } else if (number2 > number1 && number2 > number3){
 //     console.log(number2)
 // }else {console.log(number3)}
