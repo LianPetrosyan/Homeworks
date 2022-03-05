@@ -21,10 +21,10 @@ if ( a>b && a>c && a<b+c || b>a && b>c && b<a+c || c>a && c>b && c<a+b){
 
 // 3. Given a number print its digits count.
 
-let num = +prompt("Enter a number")
+let number = +prompt("Enter a number")
 let count1 = 0
-while( num!==0 ) {
-    num = Math.trunc(num/10)
+while( number!==0 ) {
+    number = Math.trunc(number/10)
     count1 +=1
 }
 console.log(count1)
@@ -32,15 +32,15 @@ console.log(count1)
 
 // 4. Count numbers of digit 9 in a number.
 
-let num1 = +prompt("Enter a number")
-let count2 = 0
-while( num1!==0 ) {
-    num1 = Math.trunc(num1/10)
-    if(num1%10 === 9){
-        count2 = count2 + 1
+let number = +prompt("Enter a number")
+let count = 0
+while( number!==0 ) {
+    number = Math.trunc(number/10)
+    if(number%10 === 9){
+        count += 1
     } else {}
 }
-console.log(count2)
+console.log(count)
 
 
 // 5. Given a positive number. Print it in reverse order.
