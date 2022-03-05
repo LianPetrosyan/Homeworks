@@ -22,12 +22,12 @@ if ( a>b && a>c && a<b+c || b>a && b>c && b<a+c || c>a && c>b && c<a+b){
 // 3. Given a number print its digits count.
 
 let number = +prompt("Enter a number")
-let count1 = 0
+let count = 0
 while( number!==0 ) {
     number = Math.trunc(number/10)
-    count1 +=1
+    count +=1
 }
-console.log(count1)
+console.log(count)
 
 
 // 4. Count numbers of digit 9 in a number.
