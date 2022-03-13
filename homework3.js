@@ -44,17 +44,16 @@
  // 5.Insert a n positive number. Print the n-st prime number.
  let n_th = +prompt("Enter a number")
  let arr = []
-
+ 
  function isPrime(num){
      if (num<=1) return false;
-     debugger
-     for(let i = 2; sqrt = Math.sqrt(num) ; i <= sqrt; i++) {
+     if (num==2 || num==3 ) return true;
+     for(let i = 2, sqrt = Math.sqrt(num) ; i <= sqrt; i++) {
          if(num % i === 0) return false;
      }
      arr.push(num);
      return arr
  }
-
  for(let i=2; i <= 1000; i++) {
      isPrime(i)
  }
